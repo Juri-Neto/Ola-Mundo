@@ -1,0 +1,58 @@
+Git - software de controle de versão (VCS) 
+
+versionamento de codigo/software
+
+Ajuda a controlar o versionamento de cada mudança feita em um codigo ou software, ajuda quando tem muitas pessoas trabalhando junto ou quando faz muitas modificações e adições no codigo. 
+
+Antigamente utilizavam mais o modelo centralizado/linear que depende de uma conexão constante com um servidor que serve como repositório central. Salvando os commits diretamente.
+
+
+Atualmente existe o modelo distribuido que permite que uma equipe trabalhe no mesmo codigo salvando seus commits em um repositório local (que é o Git) na própria maquina para só então fazer um push para o repositório remoto (que é o GitHub).
+
+Vantagem de utilizar VCS: Controle de histórico, Trabalho em equipe, Ramificação do projeto, Segurança, Organização
+
+
+GitHub - plataforma de rede social para programadores
+
+Existem outros: GitLab, Bitbucket, Phabricator, Gogs, kallithea.
+
+Vantagem: Repositórios ilimitados, Hospedagem de código-fonte, Características de rede social, GitHub Pages integrado, Colaboração, Forks
+
+--------------------
+
+CVS - Centralizado, Open Source, Mais popular, Alguns problemas 
+
+SVN - Centralizado, Open Source, Ativo até hoje, CVS-like
+
+BitKeeper - Distribuído, Software proprietário (não open source)
+
+Git - Distribuído, Open Source, Feito em 10 dias, Performance
+
+GitHub - Proprietário, Hospedagem de código, Baseado em Git
+
+----------------------------------
+
+Utilizando o GitHub Desktop para criar um repositório local e depois subir ele para o site do GitHub para ficar salvo. Utilizei a própria interface do GitHub desktop que é muito fácil. Sem precisar de comandos. 
+
+-----------------------------------
+
+Clonagem de repositório, geralmente você precisa copiar o link do repositório no GitHub.com, no entanto, como estou utilizando o GitHub Desktop, só preciso clicar em "code" e "open with git hub desktop" e basta selecionar a pasta onde quero salvar o repositório clonado. Se eu não tiver permissão de escrita, não vou conseguir fazer push com modificações para o repositório principal da pessoa. Posso fazer um fork e ai trabalhar em uma cópia do repositório como se fosse meu. 
+
+-----------------------------------------
+
+Ciar um repositório para versionar projetos antigos que você já tem. No GitHub desktop clique em "file", "new repository". Criando este repositório você pode subir ele para o GitHub. No explorador de arquivos, você pode adicionar os arquivos ou pastas para dentro deste repositório, feito isso o GitHub desktop  vai apontar as modificações feitas no novo repositório e vai perguntar se deseja fazer um push. Feito isso posso adicionar arquivos novos no meu repositório sempre que precisar e salvar no meu GitHub, é interessante fazer isso com as minhas atividades de Java. Da para fazer isso também caso eu queira criar um repositório novo para alguma organização minha ou que eu esteja trabalhando caso tenha perfil no github.
+
+--------------------------------------------
+
+issues - para solicitar ajuda para um problema.
+
+Antes de abrir uma Issue, procure nas issues do repositório se uma Issue com o seu mesmo problema já foi aberto ou resolvido anteriormente.
+
+Existem diversas opções de configuração de texto quando for abrir uma Issue ou adicionar um comentário. 
+
+Em "Settings", "saved replies",  tem como adicionar respostas salvas previamente, como assinaturas de agradecimento e compartilhamento do seu repositório e perfil pessoal. 
+
+
+pull request - encontrei um problema, analisei o codigo, aprendi como resolver, mexi no codigo, encontrei uma solução e solicitei um pull request para o dono analisar o codigo e só então aceitar ou não a modificação para o repositorio principal. 
+
+como fazer isso: fazer um "fork", clonar o repositorio, criar uma branch para o problema especifico, realizar a alteração e commits para só então quando solucionado solicitar um pull request.
