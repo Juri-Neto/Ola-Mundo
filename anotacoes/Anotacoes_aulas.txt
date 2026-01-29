@@ -56,3 +56,17 @@ Em "Settings", "saved replies",  tem como adicionar respostas salvas previamente
 pull request - encontrei um problema, analisei o codigo, aprendi como resolver, mexi no codigo, encontrei uma solução e solicitei um pull request para o dono analisar o codigo e só então aceitar ou não a modificação para o repositorio principal. 
 
 como fazer isso: fazer um "fork", clonar o repositorio, criar uma branch para o problema especifico, realizar a alteração e commits para só então quando solucionado solicitar um pull request.
+
+---------------------------------
+
+.md = linguagem Markdown - como o arquivo README.md
+
+Markdown foi criado para ser uma linguagem de facil leitura, principalmente na leitura do codigo dele. Diferente do HTML que é uma linguagem que pode ser complexa a leitura do codigo.
+
+Markdown é usado principalmente nos README.md, Issues e Pull Requests.
+
+Pin issue - para selecionar e deixar em principal as Issues importantes que você queira destacar.
+
+Lock conversation - limitar comentários de usuários que não são donos do repositório.
+
+Quote reply - para responder comentários em Issues.
