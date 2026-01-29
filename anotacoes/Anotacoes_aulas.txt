@@ -70,3 +70,27 @@ Pin issue - para selecionar e deixar em principal as Issues importantes que voc�
 Lock conversation - limitar comentários de usuários que não são donos do repositório.
 
 Quote reply - para responder comentários em Issues.
+
+-------------------------------
+
+Branch - é um ramo do projeto.
+
+Branch master/main é o ramo principal, produto final, versão corrente do software.
+
+Podem existir outras branches como uma versão a frente da principal com novas features. Estas branches uma hora serão implementadas na principal. 
+
+Branches podem ser criadas para resolver problemas especificos, cria-se a branch para solucionar o problema e depois junta para a principal.
+
+Então quando criamos um repositório novo, é criado a branch master/main. Quando fazemos um commit, versionamos e criamos uma sub-versão desse software. Este commit fica salvo localmente, mas pode-se fazer um push para enviar do repositório local (git) para o repositório remoto (github) e guardar remotamente o software. 
+
+A cada commit, um versionamento novo do software é criado e a cada push você salva ele remotamente no github. 
+
+Evite fazer todos os commits na branch master/main, para exercícios simples não tem problema.
+
+Commits errados na branch master podem comprometer o projeto completamente. O ideal é para cada feature nova, criar uma branch específica para desenvolver sem alterar a master/main. Isso se aplica a push também.
+Fazendo os commits dessa forma, não altera o "tronco" do projeto que é a branch main. 
+Tendo finalizado a nova feature ou correção de algum problema, é possível fazer um merge para o branch main do projeto.
+
+É possível criar diversas branches, caso não consiga desenvolver na branch, é possível apagar a branch ou fazer um merge.
+
+Na branch "main" criamos a estrutura principal do projeto, quando adicionar features e solucionar problemas criar as outras branches para manter estável a branch principal do software.
